@@ -1,0 +1,47 @@
+//$array=['1','5','9','3','2'];
+
+ print_r($array);
+ echo "</br>";
+ echo "sorted array -->";
+ sort($array);
+ foreach($array as $item){
+    echo $item;
+ }
+//echo "</br>";
+//echo "reversed array -->";
+
+ rsort($array);
+//foreach($array as $i){
+    echo $i;
+
+ echo "</br>";
+ echo "index of number 3 : " ;
+ echo array_search(3,$array);
+
+ $array[2]=8;
+ echo "</br>"; 
+ echo "array after replace item -->";
+ print_r($array);
+
+ $associative_array=[
+    "fname" => "rahma",
+    "lname" => "ahmed",
+    "age" =>20
+ ];
+ foreach($associative_array as $key => $value){
+    echo "</br>";
+    echo $key."=>".$value ;
+ } 
+
+
+
+
+// rsort($array);
+//  print_r($array);
+
+
+// print_r ($array); 
+// echo "</br>";
+// print_r($reversed);
+
+//echo($name);
